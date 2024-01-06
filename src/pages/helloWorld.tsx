@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@theme/Layout';
 
@@ -12,9 +11,10 @@ export default function Hello() {
           alignItems: 'center',
           height: '50vh',
           fontSize: '20px',
-        }}>
+        }}
+      >
         <p>
-            Edit <code>pages/helloWorld.tsx</code> and save to reload.
+          Edit <code>pages/helloWorld.tsx</code> and save to reload.
         </p>
       </div>
     </Layout>
